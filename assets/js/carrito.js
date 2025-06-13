@@ -1,4 +1,3 @@
-
 //DOM
 document.addEventListener('DOMContentLoaded', () => { 
     // Variables
