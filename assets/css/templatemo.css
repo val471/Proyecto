@@ -25,9 +25,6 @@ Table of contents
 16. Extra large devices (large desktops, 1200px and up)
 --------------------------------------------- */
 
-
-
-
 /* Typography */
 body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
@@ -48,48 +45,53 @@ body, ul, li, p, a, label, input, div {
   font-family: 'Roboto', sans-serif;
   font-size: 22px !important;
 }
+
 /* General */
 .logo { font-weight: 500 !important;}
-.text-warning {  color: #ede861 !important;}
+.text-warning {  color: #e07a5f !important;} /* Terracota claro */
 .text-muted { color: #bcbcbc !important;}
-.text-success { color: #59ab6e !important;}
-.text-light { color: #cfd6e1 !important;}
-.bg-dark { background-color: #212934 !important;}
-.bg-light { background-color: #e9eef5 !important;}
-.bg-black { background-color: #1d242d !important;}
-.bg-success { background-color: #59ab6e !important;}
+.text-success { color: #81b29a !important;} /* Verde salvia */
+.text-light { color: #f4f1ee !important;} /* Marfil */
+.bg-dark { background-color: #3d3d3d !important;} /* Gris cálido */
+.bg-light { background-color: #f4eae6 !important;} /* Beige rosado */
+.bg-black { background-color: #2f2f2f !important;}
+.bg-success { background-color: #81b29a !important;}
 .btn-success {
-  background-color: #59ab6e !important;
-  border-color: #56ae6c !important;
+  background-color: #81b29a !important;
+  border-color: #739b89 !important;
 }
-.pagination .page-link:hover {color: #000;}
+.pagination .page-link:hover {color: #fff;}
 .pagination .page-link:hover, .pagination .page-link.active {
-  background-color: #69bb7e;
+  background-color: #e07a5f;
   color: #fff;
 }
+
 /* Nav */
 #templatemo_nav_top { min-height: 40px;}
 #templatemo_nav_top * { font-size: .9em !important;}
-#templatemo_main_nav a { color: #212934;}
-#templatemo_main_nav a:hover { color: #69bb7e;}
+#templatemo_main_nav a { color: #3d3d3d;}
+#templatemo_main_nav a:hover { color: #e07a5f;}
 #templatemo_main_nav .navbar .nav-icon { margin-right: 20px;}
 
 /* Hero Carousel */
-#template-mo-zay-hero-carousel { background: #efefef !important;}
+#template-mo-zay-hero-carousel { background: #f9f3f0 !important;}
+
 /* Accordion */
-.templatemo-accordion a { color: #000;}
-.templatemo-accordion a:hover { color: #333d4a;}
+.templatemo-accordion a { color: #3d3d3d;}
+.templatemo-accordion a:hover { color: #e07a5f;}
+
 /* Shop */
-.shop-top-menu a:hover { color: #69bb7e !important;}
+.shop-top-menu a:hover { color: #e07a5f !important;}
+
 /* Product */
 .product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10);}
-.product-wap .product-color-dot.color-dot-red { background:#f71515;}
-.product-wap .product-color-dot.color-dot-blue { background:#6db4fe;}
-.product-wap .product-color-dot.color-dot-black { background:#000000;}
-.product-wap .product-color-dot.color-dot-light { background:#e0e0e0;}
-.product-wap .product-color-dot.color-dot-green { background:#0bff7e;}
+.product-wap .product-color-dot.color-dot-red { background:#e07a5f;}
+.product-wap .product-color-dot.color-dot-blue { background:#96c9dc;}
+.product-wap .product-color-dot.color-dot-black { background:#2f2f2f;}
+.product-wap .product-color-dot.color-dot-light { background:#f4f1ee;}
+.product-wap .product-color-dot.color-dot-green { background:#81b29a;}
 .card.product-wap .card .product-overlay {
-  background: rgba(0,0,0,.2);
+  background: rgba(61, 61, 61, .2);
   visibility: hidden;
   opacity: 0;
   transition: .3s;
@@ -98,12 +100,13 @@ body, ul, li, p, a, label, input, div {
   visibility: visible;
   opacity: 1;
 }
-.card.product-wap a { color: #000;}
+.card.product-wap a { color: #3d3d3d;}
 #carousel-related-product .slick-slide:focus { outline: none !important;}
 #carousel-related-product .slick-dots li button:before {
   font-size: 15px;
   margin-top: 20px;
 }
+
 /* Brand */
 .brand-img {
   filter: grayscale(100%);
@@ -114,31 +117,39 @@ body, ul, li, p, a, label, input, div {
   filter: grayscale(0%);
   opacity: 1;
 }
+
 /* Carousel Hero */
 #template-mo-zay-hero-carousel .carousel-indicators li {
   margin-top: -50px;
-  background-color: #59ab6e;
+  background-color: rgba(224, 122, 95, 0.4); /* Terracota translúcido */
 }
 #template-mo-zay-hero-carousel .carousel-control-next i,
 #template-mo-zay-hero-carousel .carousel-control-prev i {
-  color: #59ab6e !important;
+  color: #e07a5f !important;
   font-size: 2.8em !important;
 }
+#template-mo-zay-hero-carousel .carousel-indicators .active {
+  background-color: #e07a5f;
+}
+
 /* Carousel Brand */
 .tempaltemo-carousel .h1 {
   font-size: .5em !important;
-  color: #000 !important;
+  color: #3d3d3d !important;
 }
+
 /* Services */
 .services-icon-wap {transition: .3s;}
 .services-icon-wap:hover, .services-icon-wap:hover i {color: #fff;}
-.services-icon-wap:hover {background: #69bb7e;}
+.services-icon-wap:hover {background: #e07a5f;}
+
 /* Contact map */
 .leaflet-control a, .leaflet-control { font-size: 10px !important;}
 .form-control { border: 1px solid #e8e8e8;}
+
 /* Footer */
-#tempaltemo_footer a { color: #dcdde1;}
-#tempaltemo_footer a:hover { color: #68bb7d;}
+#tempaltemo_footer a { color: #f4f1ee;}
+#tempaltemo_footer a:hover { color: #e07a5f;}
 #tempaltemo_footer ul.footer-link-list li { padding-top: 10px;}
 #tempaltemo_footer ul.footer-icons li {
   width: 2.6em;
@@ -146,18 +157,15 @@ body, ul, li, p, a, label, input, div {
   line-height: 2.6em;
 }
 #tempaltemo_footer ul.footer-icons li:hover {
-  background-color: #cfd6e1;
+  background-color: #f4f1ee;
   transition: .5s;
 }
 #tempaltemo_footer ul.footer-icons li:hover i {
-  color: #212934;
+  color: #3d3d3d;
   transition: .5s;
 }
-#tempaltemo_footer .border-light { border-color: #2d343f !important;}
-/*
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-*/
+#tempaltemo_footer .border-light { border-color: #e0dcd8 !important;}
+
 /* Small devices (landscape phones, 576px and up)*/
 .product-wap .h3, .product-wap li, .product-wap i, .product-wap p {
   font-size: 12px !important;
@@ -171,10 +179,10 @@ body, ul, li, p, a, label, input, div {
   .tempaltemo-carousel .h1 { font-size: 1em !important;}
 }
 
-/*// Medium devices (tablets, 768px and up)*/
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
   #templatemo_main_nav .navbar-nav {max-width: 450px;}
- }
+}
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
