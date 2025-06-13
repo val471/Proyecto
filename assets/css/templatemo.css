@@ -91,7 +91,7 @@ body, ul, li, p, a, label, input, div {
 .product-wap .product-color-dot.color-dot-light { background:#f4f1ee;}
 .product-wap .product-color-dot.color-dot-green { background:#81b29a;}
 .card.product-wap .card .product-overlay {
-  background: rgba(61, 61, 61, .2);
+  background: rgba(195, 169, 169, 0.2);
   visibility: hidden;
   opacity: 0;
   transition: .3s;
