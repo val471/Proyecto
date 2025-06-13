@@ -5,45 +5,45 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Almohada Suave',
+            nombre: "Almohada Suave",
             precio: 75000,
-            imagen: 'assets/img/category_img1.jpg',
-            categoria: 'Almohadas'
+            imagen: "assets/img/category_img1.jpg",
+            categoria: "Almohadas"
         },
         {
             id: 2,
-            nombre: 'Colchoneta Confort',
+            nombre: "Colchoneta Confort",
             precio: 160000,
-            imagen: 'assets/img/category_img2.jpg',
-            categoria: 'Colchonetas'
+            imagen: "assets/img/category_img2.jpg",
+            categoria: "Colchonetas"
         },
         {
             id: 3,
-            nombre: 'Cojín Decorativo',
+            nombre: "Cojín Decorativo",
             precio: 50000,
-            imagen: 'assets/img/category_img3.jpg',
-            categoria: 'Cojines'
+            imagen: "assets/img/category_img3.jpg",
+            categoria: "Cojines"
         },
         {
             id: 4,
-            nombre: 'Forro de Colchón',
+            nombre: "Forro de Colchón",
             precio: 80000,
-            imagen: 'assets/img/img4.jpg',
-            categoria: 'Forros'
+            imagen:"assets/img/category_img4.jpg",
+            categoria: "Forros"
         },
         {
             id: 5,
-            nombre: 'Relleno de Fibra',
+            nombre: "Relleno de Fibra",
             precio: 35000,
-            imagen: 'assets/img/im.jpg',
-            categoria: 'Rellenos'
+            imagen: "assets/img/category_img5.jpg",
+            categoria: "Rellenos"
         },
         {
             id: 6,
-            nombre: 'Sábanas de Algodón',
+            nombre: "Sábanas de Algodón",
             precio: 140000,
-            imagen: 'assets/img/sabanas_01.jpg',
-            categoria: 'Sabanas'
+            imagen: "assets/img/category_img6.jpg",
+            categoria: "Sabanas"
         }
     ];
 
