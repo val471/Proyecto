@@ -5,45 +5,45 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Sombrero vueltiao con la bandera de Colombia, 23 vueltas',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_01.jpg',
-            categoria: 'sombreros'
+            nombre: 'Almohada Suave',
+            precio: 75000,
+            imagen: 'assets/img/category_img1.jpg',
+            categoria: 'Almohadas'
         },
         {
             id: 2,
-            nombre: 'Sombrero vueltiao-machiembriao',
-            precio: 150000,
-            imagen: 'assets/img/sombrero4.jpg',
-            categoria: 'sombreros'
+            nombre: 'Colchoneta Confort',
+            precio: 160000,
+            imagen: 'assets/img/category_img2.jpg',
+            categoria: 'Colchonetas'
         },
         {
             id: 3,
-            nombre: 'Sombrero vueltiao colombiano 15 vueltas tricolor',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_02.jpg',
-            categoria: 'sombreros'
+            nombre: 'Cojín Decorativo',
+            precio: 50000,
+            imagen: 'assets/img/category_img3.jpg',
+            categoria: 'Cojines'
         },
         {
             id: 4,
-            nombre: 'Mochila wayuu azul 6',
-            precio: 120000,
-            imagen: 'assets/img/shop_04.jpg',
-            categoria: 'mochilas'
+            nombre: 'Forro de Colchón',
+            precio: 80000,
+            imagen: 'assets/img/img4.jpg',
+            categoria: 'Forros'
         },
         {
             id: 5,
-            nombre: 'Bolso en fique',
-            precio: 120000,
-            imagen: 'assets/img/shop_03.jpg',
-            categoria: 'bolsos'
+            nombre: 'Relleno de Fibra',
+            precio: 35000,
+            imagen: 'assets/img/im.jpg',
+            categoria: 'Rellenos'
         },
         {
             id: 6,
-            nombre: 'Hamaca',
-            precio: 120000,
-            imagen: 'assets/img/category_img_02.jpg',
-            categoria: 'hamacas'
+            nombre: 'Sábanas de Algodón',
+            precio: 140000,
+            imagen: 'assets/img/sabanas_01.jpg',
+            categoria: 'Sabanas'
         }
     ];
 
